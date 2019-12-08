@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Dia Chi Nguoi Mua"
+        android:inputType="textPersonName"
+        android:text="Dia Chi Mua"
+        android:background="@color/colorAccent"/>
+
+    <ImageView
+        android:id="@+id/imgHinhAnhSach2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/txtTenSach2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="@color/colorOrange"/>
+
+    <TextView
+        android:id="@+id/txtGiasAch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="@color/colorOrange"/>
+
+    <TextView
+        android:id="@+id/txtNhaXuatBan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="@color/colorOrange"/>
+
+    <TextView
+        android:id="@+id/txtSoLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="So Luong:1"
+        android:textSize="20dp"
+        android:textColor="@color/colorOrange"/>
+
+    <TextView
+        android:id="@+id/txtGioiThieuSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GioiThieuSach"
+        android:textSize="15dp"
+        android:textColor="@color/colorOrange"/>
+
+    <Button
+        android:id="@+id/btnMua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mua"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/btnTroVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tro Ve"
+        android:background="@drawable/button"/>
+</LinearLayout>
